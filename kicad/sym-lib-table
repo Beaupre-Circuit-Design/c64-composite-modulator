@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name BCD)(type Legacy)(uri ${KIPRJMOD}/BCD.lib)(options "")(descr ""))
+  (lib (name C64_Composite_Modulator)(type Legacy)(uri ${KIPRJMOD}/C64-Composite-Modulator.lib)(options "")(descr ""))
+)

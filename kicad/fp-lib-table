@@ -1,3 +1,4 @@
 (fp_lib_table
-  (lib (name "C64 RF Modulator Replacement")(type KiCad)(uri "${KIPRJMOD}/C64 RF Modulator Replacement.pretty")(options "")(descr ""))
+  (lib (name BCD)(type KiCad)(uri ${KIPRJMOD}/BCD.pretty)(options "")(descr ""))
+  (lib (name "C64 Composite Modulator")(type KiCad)(uri ${KIPRJMOD}/C64-Composite-Modulator.pretty)(options "")(descr ""))
 )
