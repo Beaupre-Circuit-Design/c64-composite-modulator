@@ -7,6 +7,10 @@ Recommended board values:
 * Tented Vias - Yes
 * Surface Finish - Personal preference
 
+Notes:
+* When ordering, **C7** should be left **unpopulated** unless you know you will need it and what value you need.
+* If populating **B1** and **B2**, you obviously don't need the trimmers.
+
 Theses files should be zipped together and uploaded for PCB fabrication:
 * C64-Composite-Modulator-B_Cu.gbl        
 * C64-Composite-Modulator-B_Mask.gbs      
