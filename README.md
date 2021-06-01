@@ -1,7 +1,7 @@
 # c64-rf-modulator-replacement
 C64 Composite/S-Video RF Modulator Replacement
 
-<img src="./images/C64-Composite-Modulator-Front.png" width=400px>
+<img src="./images/C64-Composite-Modulator-Top.png" width=400px>
 
 ## Quick Links
 * [Schematic](pdf/C64-Composite-Modulator.pdf)
@@ -80,4 +80,8 @@ Composite video output remains at a fixed output level regardless of the Y and C
 If you are still getting checkerboarding even after adjusting the potentiometers, try populating C7 with a 330pF Resistor (you can experiement with different values to see what works best with your setup).  This combines with R3 to create an RC filter that seems to help eliminate this.  There seems to be a degree of variablility regarding different A->D conversion cirtuitry used in different brands of LCD monitors and in devices like the RetroTink2X or OSSC that makes some displays more susceptable to checkerboarding.  CRT monitors are not as susceptable to this behavior.
 
 # Changelog
-Rev 20210528-2008 - Prototype
+* Rev 20210528-2008
+  * Prototype
+* Rev 20210531-2143
+  * Move B1/B2 silkscreen reference to the right location.
+  * Rotate JP1/JP2 so all the headers are aligned to the same side.
