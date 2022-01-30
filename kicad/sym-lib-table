@@ -1,4 +1,5 @@
 (sym_lib_table
-  (lib (name BCD)(type Legacy)(uri ${KIPRJMOD}/BCD.lib)(options "")(descr ""))
-  (lib (name C64_Composite_Modulator)(type Legacy)(uri ${KIPRJMOD}/C64-Composite-Modulator.lib)(options "")(descr ""))
+  (lib (name "C64_Composite_Modulator")(type "KiCad")(uri "${KIPRJMOD}/C64-Composite-Modulator.kicad_sym")(options "")(descr ""))
+  (lib (name "BeaupreCircuitDesign")(type "KiCad")(uri "${KIPRJMOD}/BeaupreCircuitDesign.kicad_sym")(options "")(descr ""))
+  (lib (name "CreativeCommons")(type "KiCad")(uri "${KIPRJMOD}/CreativeCommons.kicad_sym")(options "")(descr ""))
 )

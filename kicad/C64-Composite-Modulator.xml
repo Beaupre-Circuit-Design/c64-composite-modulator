@@ -1,288 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<export version="D">
+<export version="E">
   <design>
-    <source>D:\KiCad\Projets\C64-Composite-Modulator\kicad\C64-Composite-Modulator.sch</source>
-    <date>2021-05-28 08:12:18</date>
-    <tool>Eeschema (5.1.10)-1</tool>
+    <source>D:\KiCad\Projets\C64-Composite-Modulator\kicad\C64-Composite-Modulator.kicad_sch</source>
+    <date>30/01/2022 12:43:00</date>
+    <tool>Eeschema (6.0.1)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>C64 Composite Modulator</title>
         <company>Beaupré Circuit Design</company>
-        <rev>1</rev>
-        <date>2021-05-26</date>
-        <source>C64-Composite-Modulator.sch</source>
+        <rev>2</rev>
+        <date>2022-01-29</date>
+        <source>C64-Composite-Modulator.kicad_sch</source>
         <comment number="1" value="https://github.com/Beaupre-Circuit-Design/c64-composite-modulator"/>
         <comment number="2" value=""/>
         <comment number="3" value="https://github.com/mbarszcz-pcb/c64-rf-modulator-replacement"/>
         <comment number="4" value="Remix of an original idea by mbarszcz:"/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
       </title_block>
     </sheet>
   </design>
   <components>
-    <comp ref="R3">
-      <value>5K6</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/1810301830_UNI-ROYAL-Uniroyal-Elec-0805W8F5601T5E_C4382.pdf</datasheet>
-      <fields>
-        <field name="Description">5.6kΩ ±1% 0.125W ±100ppm/℃ 0805 Chip Resistor</field>
-        <field name="LCSC">C4382</field>
-        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
-        <field name="Mfr.Part">0805W8F5601T5E</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E6A34BA</tstamp>
-    </comp>
-    <comp ref="R4">
-      <value>68</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/1810301620_UNI-ROYAL-Uniroyal-Elec-0805W8F680JT5E_C17802.pdf</datasheet>
-      <fields>
-        <field name="Description">68Ω ±1% 0.125W ±200ppm/℃ 0805 Chip Resistor</field>
-        <field name="LCSC">C17802</field>
-        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
-        <field name="Mfr.Part">0805W8F680JT5E</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E6A3B3F</tstamp>
-    </comp>
-    <comp ref="R5">
-      <value>220</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/1810241809_UNI-ROYAL-Uniroyal-Elec-0805W8F2200T5E_C17557.pdf</datasheet>
-      <fields>
-        <field name="Description">220Ω ±1% 0.125W ±100ppm/℃ 0805 Chip Resistor</field>
-        <field name="LCSC">C17557</field>
-        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
-        <field name="Mfr.Part">0805W8F2200T5E</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E6A40C9</tstamp>
-    </comp>
-    <comp ref="Q1">
-      <value>BC847B</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/1811141734_ST-Semtech-BC847B-1F_C118728.pdf</datasheet>
-      <fields>
-        <field name="Description">NPN 100mA 45V 300mW SOT-23(SOT-23-3) Transistors</field>
-        <field name="LCSC">C118728</field>
-        <field name="Manufacturer">ST(Semtech)</field>
-        <field name="Mfr.Part">BC847B(1F)</field>
-      </fields>
-      <libsource lib="Transistor_BJT" part="BC547" description="0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E6AEA7A</tstamp>
-    </comp>
-    <comp ref="C5">
-      <value>330pF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/1810191220_Samsung-Electro-Mechanics-CL21B331KBANNNC_C51207.pdf</datasheet>
-      <fields>
-        <field name="Description">330pF ±10% 50V X7R 0805 Multilayer Ceramic Capacitors</field>
-        <field name="LCSC">C51207</field>
-        <field name="Manufacturer">Samsung Electro-Mechanics</field>
-        <field name="Mfr.Part">CL21B331KBANNNC</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E6B6597</tstamp>
-    </comp>
-    <comp ref="C2">
-      <value>33nF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/1811071214_FH-Guangdong-Fenghua-Advanced-Tech-0805B334K500NT_C1740.pdf</datasheet>
-      <fields>
-        <field name="Description">330nF ±10% 50V X7R 0805 Multilayer Ceramic Capacitors</field>
-        <field name="LCSC">C1740</field>
-        <field name="Manufacturer">FH(Guangdong Fenghua Advanced Tech)</field>
-        <field name="Mfr.Part">0805B334K500NT</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E6BD9EA</tstamp>
-    </comp>
-    <comp ref="C3">
-      <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/1810101813_YAGEO-CC0805KRX7R9BB104_C49678.pdf</datasheet>
-      <fields>
-        <field name="Description">100nF ±10% 50V X7R 0805 Multilayer Ceramic Capacitors</field>
-        <field name="LCSC">C49678</field>
-        <field name="Manufacturer">YAGEO</field>
-        <field name="Mfr.Part">CC0805KRX7R9BB104</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E6BE839</tstamp>
-    </comp>
-    <comp ref="C1">
-      <value>10uF</value>
-      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/1810221112_Samsung-Electro-Mechanics-CL31A106KBHNNNE_C13585.pdf</datasheet>
-      <fields>
-        <field name="Description">10uF ±10% 50V X5R 1206 Multilayer Ceramic Capacitors </field>
-        <field name="LCSC">C13585</field>
-        <field name="Manufacturer">Samsung Electro-Mechanics</field>
-        <field name="Mfr.Part">CL31A106KBHNNNE</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E6C1A36</tstamp>
-    </comp>
-    <comp ref="R2">
-      <value>3K3</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/1809140022_UNI-ROYAL-Uniroyal-Elec-0805W8F3301T5E_C26010.pdf</datasheet>
-      <fields>
-        <field name="Description">3.3kΩ ±1% 0.125W ±100ppm/℃ 0805 Chip Resistor</field>
-        <field name="LCSC">C26010</field>
-        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
-        <field name="Mfr.Part">0805W8F3301T5E</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E6A20B7</tstamp>
-    </comp>
-    <comp ref="B1">
-      <value>RV1 Bypass</value>
-      <footprint>C64 Composite Modulator:J_0805_2012Metric</footprint>
-      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5EAA98F9</tstamp>
-    </comp>
-    <comp ref="C4">
-      <value>10uF</value>
-      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/1810221112_Samsung-Electro-Mechanics-CL31A106KBHNNNE_C13585.pdf</datasheet>
-      <fields>
-        <field name="Description">10uF ±10% 50V X5R 1206 Multilayer Ceramic Capacitors </field>
-        <field name="LCSC">C13585</field>
-        <field name="Manufacturer">Samsung Electro-Mechanics</field>
-        <field name="Mfr.Part">CL31A106KBHNNNE</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>60A217AB</tstamp>
-    </comp>
-    <comp ref="U1">
-      <value>78L05</value>
-      <footprint>Package_TO_SOT_SMD:SOT-89-3</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/1809200029_UTC-Unisonic-Tech-78L05G-AB3-R_C71136.pdf</datasheet>
-      <fields>
-        <field name="Description">Fixed 30V 5V 1.7V @ 40mA(typ) SOT-89(SOT-89-3) Dropout Regulators</field>
-        <field name="LCSC">C71136</field>
-        <field name="Manufacturer">UTC(Unisonic Tech)</field>
-        <field name="Mfr.Part">78L05G-AB3-R</field>
-      </fields>
-      <libsource lib="Regulator_Linear" part="L78L05_SOT89" description="Positive 100mA 30V Linear Regulator, Fixed Output 5V, SOT-89"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>60A23D62</tstamp>
-    </comp>
-    <comp ref="J3">
-      <value>Conn_01x04_Male</value>
-      <footprint>C64 Composite Modulator:mill-max-800-10-004-10-001000</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/1811092112_BOOMELE-Boom-Precision-Elec-C9742_C9742.pdf</datasheet>
-      <fields>
-        <field name="Description">Pin Header 40x1 Straight，180degrees 2.54mm Pin Header</field>
-        <field name="LCSC">C9742</field>
-        <field name="Manufacturer">BOOMELE(Boom Precision Elec)</field>
-        <field name="Mfr.Part">C9742</field>
-        <field name="Notes">Cut to 4 pins</field>
-      </fields>
-      <libsource lib="Connector" part="Conn_01x04_Male" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>60ADA608</tstamp>
-    </comp>
-    <comp ref="R9">
-      <value>150</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/1810301815_UNI-ROYAL-Uniroyal-Elec-0805W8F1500T5E_C17471.pdf</datasheet>
-      <fields>
-        <field name="Description">150Ω ±1% 0.125W ±100ppm/℃ 0805 Chip Resistor</field>
-        <field name="LCSC">C17471</field>
-        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
-        <field name="Mfr.Part">0805W8F1500T5E</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>60B7A342</tstamp>
-    </comp>
-    <comp ref="R8">
-      <value>150</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/1810301815_UNI-ROYAL-Uniroyal-Elec-0805W8F1500T5E_C17471.pdf</datasheet>
-      <fields>
-        <field name="Description">150Ω ±1% 0.125W ±100ppm/℃ 0805 Chip Resistor</field>
-        <field name="LCSC">C17471</field>
-        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
-        <field name="Mfr.Part">0805W8F1500T5E</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>60B7A332</tstamp>
-    </comp>
-    <comp ref="C6">
-      <value>68pF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/1811061723_FH-Guangdong-Fenghua-Advanced-Tech-0805CG680J500NT_C1834.pdf</datasheet>
-      <fields>
-        <field name="Description">68pF ±5% 50V C0G 0805 Multilayer Ceramic Capacitors</field>
-        <field name="LCSC">C1834</field>
-        <field name="Manufacturer">FH(Guangdong Fenghua Advanced Tech)</field>
-        <field name="Mfr.Part">0805CG680J500NT</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>60B7A303</tstamp>
-    </comp>
-    <comp ref="L1">
-      <value>10uH</value>
-      <footprint>Inductor_SMD:L_1206_3216Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/1810311314_FH-Guangdong-Fenghua-Advanced-Tech-CMI321609X100KT_C1051.pdf</datasheet>
-      <fields>
-        <field name="Description">10uH ±10% 25mA 800mΩ 1206 Inductors</field>
-        <field name="LCSC">C1051</field>
-        <field name="Manufacturer">FH(Guangdong Fenghua Advanced Tech)</field>
-        <field name="Mfr.Part">CMI321609X100KT</field>
-      </fields>
-      <libsource lib="Device" part="L" description="Inductor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>60B7A2F5</tstamp>
-    </comp>
-    <comp ref="RV1">
-      <value>200</value>
-      <footprint>Potentiometer_THT:Potentiometer_Bourns_3266W_Vertical</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/1810170824_BOCHEN-Chengdu-Guosheng-Tech-3266W-1-201_C124981.pdf</datasheet>
-      <fields>
-        <field name="Description">Variable Resistors 200Ω ±10% ±250ppm/℃ 3266W Variable Resistors/Potentiometers</field>
-        <field name="LCSC">C124981</field>
-        <field name="Manufacturer">BOCHEN(Chengdu Guosheng Tech)</field>
-        <field name="Mfr.Part">3266W-1-201</field>
-      </fields>
-      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5EAA98F2</tstamp>
-    </comp>
-    <comp ref="LB1">
-      <value>Conn_01x01_Male</value>
-      <footprint>C64 Composite Modulator:mill-max-800-10-001-10-001000</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/1811092112_BOOMELE-Boom-Precision-Elec-C9742_C9742.pdf</datasheet>
-      <fields>
-        <field name="Description">Pin Header 40x1 Straight，180degrees 2.54mm Pin Header</field>
-        <field name="LCSC">C9742</field>
-        <field name="Manufacturer">BOOMELE(Boom Precision Elec)</field>
-        <field name="Mfr.Part">C9742</field>
-        <field name="Notes">Cut to 1 Pin</field>
-      </fields>
-      <libsource lib="Connector" part="Conn_01x01_Male" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>61056EEE</tstamp>
-    </comp>
-    <comp ref="V1">
+    <comp ref="A1">
       <value>Conn_Coaxial</value>
-      <footprint>C64 Composite Modulator:CUI_RCJ-014</footprint>
+      <footprint>CUI_Devices:RCJ-013</footprint>
       <datasheet>https://www.cuidevices.com/product/resource/digikeypdf/rcj-01x.pdf</datasheet>
       <fields>
         <field name="Description">3.20mm ID, 9.00mm OD (RCA) Phono (RCA) Jack Mono Connector Solder</field>
@@ -290,516 +34,901 @@
         <field name="Manufacturer">CUI Devices</field>
         <field name="Mfr.Part">RCJ-014</field>
       </fields>
-      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"/>
+      <property name="Description" value="3.20mm ID, 9.00mm OD (RCA) Phono (RCA) Jack Mono Connector Solder"/>
+      <property name="Manufacturer" value="CUI Devices"/>
+      <property name="Mfr.Part" value="RCJ-014"/>
+      <property name="Digikey" value="CP-1403-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C64-Composite-Modulator.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>610DECFF</tstamp>
+      <tstamps>bb27f4a5-797a-4556-a6e3-9cfade4cd0cc</tstamps>
     </comp>
-    <comp ref="OSHW1">
-      <value>OSHW</value>
-      <footprint>BCD:OSHW-xxxsmall</footprint>
-      <libsource lib="BCD" part="OSHW" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>60AB5FEA</tstamp>
-    </comp>
-    <comp ref="CC1">
-      <value>CC</value>
-      <footprint>BCD:CC-Logo-xxxsmall</footprint>
-      <libsource lib="BCD" part="CC" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>60AB733E</tstamp>
-    </comp>
-    <comp ref="NC1">
-      <value>CC-NC</value>
-      <footprint>BCD:CC-NC-xxxsmall</footprint>
-      <libsource lib="BCD" part="CC-NC" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>60AB8BD9</tstamp>
-    </comp>
-    <comp ref="BY1">
-      <value>CC-BY</value>
-      <footprint>BCD:CC-BY-xxxsmall</footprint>
-      <libsource lib="BCD" part="CC-BY" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>60ABA553</tstamp>
-    </comp>
-    <comp ref="SA1">
-      <value>CC-SA</value>
-      <footprint>BCD:CC-SA-xxxsmall</footprint>
-      <libsource lib="BCD" part="CC-SA" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>60ABC240</tstamp>
-    </comp>
-    <comp ref="Danger1">
-      <value>Danger</value>
-      <footprint>BCD:Danger-xxxsmall</footprint>
-      <libsource lib="BCD" part="Danger" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>60ABDB40</tstamp>
-    </comp>
-    <comp ref="BCD1">
-      <value>BCD(DOT)</value>
-      <footprint>BCD:BCD_LOGO_DOT-xxxsmall</footprint>
-      <libsource lib="BCD" part="BCD(DOT)" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>60ABF4F7</tstamp>
-    </comp>
-    <comp ref="TP1">
-      <value>TestPoint</value>
-      <footprint>TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm</footprint>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>60D2EB96</tstamp>
-    </comp>
-    <comp ref="TP2">
-      <value>TestPoint</value>
-      <footprint>TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm</footprint>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>60D30C14</tstamp>
-    </comp>
-    <comp ref="TP3">
-      <value>TestPoint</value>
-      <footprint>TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm</footprint>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>60D7B0A7</tstamp>
-    </comp>
-    <comp ref="TP5">
-      <value>TestPoint</value>
-      <footprint>TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm</footprint>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>60D85824</tstamp>
-    </comp>
-    <comp ref="JP3">
-      <value>Jumper_3_Open</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/1811151411_BOOMELE-Boom-Precision-Elec-2-54mm-1x40P_C2337.pdf</datasheet>
+    <comp ref="C1">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1810221112_Samsung-Electro-Mechanics-CL31A106KBHNNNE_C13585.pdf</datasheet>
       <fields>
-        <field name="Description">Pin Header 3x1 Straight，180degrees 2.54mm Through Hole Pin Header</field>
-        <field name="LCSC">C2337</field>
-        <field name="Manufacturer">BOOMELE(Boom Precision Elec)</field>
-        <field name="Mfr.Part">2.54mm 1x40P</field>
-        <field name="Notes">Cut to 3 pins</field>
+        <field name="Description">10uF ±10% 50V X5R 1206 Multilayer Ceramic Capacitors </field>
+        <field name="Digikey">1276-2876-1-ND</field>
+        <field name="LCSC">C13585</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Mfr.Part">CL31A106KBHNNNE</field>
       </fields>
-      <libsource lib="Jumper" part="Jumper_3_Open" description="Jumper, 3-pole, both open"/>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Description" value="10uF ±10% 50V X5R 1206 Multilayer Ceramic Capacitors "/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Mfr.Part" value="CL31A106KBHNNNE"/>
+      <property name="LCSC" value="C13585"/>
+      <property name="Digikey" value="1276-2876-1-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C64-Composite-Modulator.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>60EA1E5E</tstamp>
+      <tstamps>00000000-0000-0000-0000-00005e6c1a36</tstamps>
     </comp>
-    <comp ref="TP4">
-      <value>TestPoint</value>
-      <footprint>TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm</footprint>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>60D838EF</tstamp>
-    </comp>
-    <comp ref="TP6">
-      <value>TestPoint</value>
-      <footprint>TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm</footprint>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>60D5BEC3</tstamp>
-    </comp>
-    <comp ref="TP7">
-      <value>TestPoint</value>
-      <footprint>TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm</footprint>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>60D55C90</tstamp>
-    </comp>
-    <comp ref="Q2">
-      <value>BC847B</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/1811141734_ST-Semtech-BC847B-1F_C118728.pdf</datasheet>
+    <comp ref="C2">
+      <value>33nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1810241123_Samsung-Electro-Mechanics-CL21B333KBANNNC_C159777.pdf</datasheet>
       <fields>
-        <field name="Description">NPN 100mA 45V 300mW SOT-23(SOT-23-3) Transistors</field>
-        <field name="LCSC">C118728</field>
-        <field name="Manufacturer">ST(Semtech)</field>
-        <field name="Mfr.Part">BC847B(1F)</field>
+        <field name="Description">50V 33nF X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS</field>
+        <field name="Digikey">1276-1796-1-ND</field>
+        <field name="LCSC">C159777</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Mfr.Part">CL21B333KBANNNC</field>
       </fields>
-      <libsource lib="Transistor_BJT" part="BC547" description="0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"/>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Description" value="50V 33nF X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Mfr.Part" value="CL21B333KBANNNC"/>
+      <property name="LCSC" value="C159777"/>
+      <property name="Digikey" value="1276-1796-1-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C64-Composite-Modulator.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>60B7A383</tstamp>
+      <tstamps>00000000-0000-0000-0000-00005e6bd9ea</tstamps>
     </comp>
-    <comp ref="B2">
-      <value>RV2 Bypass</value>
-      <footprint>C64 Composite Modulator:J_0805_2012Metric</footprint>
-      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>60B7A36E</tstamp>
-    </comp>
-    <comp ref="R11">
-      <value>150</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/1810301815_UNI-ROYAL-Uniroyal-Elec-0805W8F1500T5E_C17471.pdf</datasheet>
+    <comp ref="C3">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1810191216_Samsung-Electro-Mechanics-CL21B104KCFNNNE_C28233.pdf</datasheet>
       <fields>
-        <field name="Description">150Ω ±1% 0.125W ±100ppm/℃ 0805 Chip Resistor</field>
-        <field name="LCSC">C17471</field>
-        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
-        <field name="Mfr.Part">0805W8F1500T5E</field>
+        <field name="Description">100V 100nF X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS</field>
+        <field name="Digikey">1276-6840-1-ND</field>
+        <field name="LCSC">C28233</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Mfr.Part">CL21B104KCFNNNE</field>
       </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Description" value="100V 100nF X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Mfr.Part" value="CL21B104KCFNNNE"/>
+      <property name="LCSC" value="C28233"/>
+      <property name="Digikey" value="1276-6840-1-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C64-Composite-Modulator.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>60B79FE5</tstamp>
+      <tstamps>00000000-0000-0000-0000-00005e6be839</tstamps>
     </comp>
-    <comp ref="D1">
-      <value>1N4148</value>
-      <footprint>Diode_SMD:D_SOD-323F</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/1810101110_Changjiang-Electronics-Tech-CJ-1N4148WS_C2128.pdf</datasheet>
+    <comp ref="C4">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1810221112_Samsung-Electro-Mechanics-CL31A106KBHNNNE_C13585.pdf</datasheet>
       <fields>
-        <field name="Description">100V 150mA 1.25V @ 150mA 4ns SOD-323 Switching Diode</field>
-        <field name="LCSC">C2128</field>
-        <field name="Manufacturer">Changjiang Electronics Tech</field>
-        <field name="Mfr.Part">1N4148WS</field>
+        <field name="Description">10uF ±10% 50V X5R 1206 Multilayer Ceramic Capacitors </field>
+        <field name="Digikey">1276-2876-1-ND</field>
+        <field name="LCSC">C13585</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Mfr.Part">CL31A106KBHNNNE</field>
       </fields>
-      <libsource lib="Device" part="D_Small_ALT" description="Diode, small symbol, filled shape"/>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Description" value="10uF ±10% 50V X5R 1206 Multilayer Ceramic Capacitors "/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Mfr.Part" value="CL31A106KBHNNNE"/>
+      <property name="LCSC" value="C13585"/>
+      <property name="Digikey" value="1276-2876-1-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C64-Composite-Modulator.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>60B7A319</tstamp>
+      <tstamps>00000000-0000-0000-0000-000060a217ab</tstamps>
     </comp>
-    <comp ref="R10">
-      <value>75</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/1810301620_UNI-ROYAL-Uniroyal-Elec-0805W8F750JT5E_C17820.pdf</datasheet>
-      <fields>
-        <field name="Description">75Ω ±1% 0.125W ±200ppm/℃ 0805 Chip Resistor</field>
-        <field name="LCSC">C17820</field>
-        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
-        <field name="Mfr.Part">0805W8F750JT5E</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>60B7A35A</tstamp>
-    </comp>
-    <comp ref="RV2">
-      <value>200</value>
-      <footprint>Potentiometer_THT:Potentiometer_Bourns_3266W_Vertical</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/1810170824_BOCHEN-Chengdu-Guosheng-Tech-3266W-1-201_C124981.pdf</datasheet>
-      <fields>
-        <field name="Description">Variable Resistors 200Ω ±10% ±250ppm/℃ 3266W Variable Resistors/Potentiometers</field>
-        <field name="LCSC">C124981</field>
-        <field name="Manufacturer">BOCHEN(Chengdu Guosheng Tech)</field>
-        <field name="Mfr.Part">3266W-1-201</field>
-      </fields>
-      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>60B7A391</tstamp>
-    </comp>
-    <comp ref="R7">
-      <value>1K</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/1811022111_UNI-ROYAL-Uniroyal-Elec-0805W8F1001T5E_C17513.pdf</datasheet>
-      <fields>
-        <field name="Description">1kΩ ±1% 0.125W ±100ppm/℃ 0805 Chip Resistor</field>
-        <field name="LCSC">C17513</field>
-        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
-        <field name="Mfr.Part">0805W8F1001T5E</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E875462</tstamp>
-    </comp>
-    <comp ref="R6">
-      <value>470</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/1811050105_UNI-ROYAL-Uniroyal-Elec-0805W8F4700T5E_C17710.pdf</datasheet>
-      <fields>
-        <field name="Description">470Ω ±1% 0.125W ±100ppm/℃ 0805 Chip Resistor</field>
-        <field name="LCSC">C17710</field>
-        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
-        <field name="Mfr.Part">0805W8F4700T5E</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E86CD09</tstamp>
-    </comp>
-    <comp ref="A1">
-      <value>SJ1-3523N</value>
-      <footprint>C64 Composite Modulator:CUI_SJ1-3523N</footprint>
-      <datasheet>https://www.cuidevices.com/product/resource/digikeypdf/sj1-352xn.pdf</datasheet>
-      <fields>
-        <field name="Description">3.50mm Headphone Phone Jack Stereo (3 Conductor TRS) Connector Solder</field>
-        <field name="Digikey">CP1-3523N-ND</field>
-        <field name="Manufacturer">CUI Devices</field>
-        <field name="Mfr.Part">SJ1-3523N</field>
-      </fields>
-      <libsource lib="C64_Composite_Modulator" part="SJ1-3523N" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>611237E4</tstamp>
-    </comp>
-    <comp ref="R1">
-      <value>1K</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/1811022111_UNI-ROYAL-Uniroyal-Elec-0805W8F1001T5E_C17513.pdf</datasheet>
-      <fields>
-        <field name="Description">1kΩ ±1% 0.125W ±100ppm/℃ 0805 Chip Resistor</field>
-        <field name="LCSC">C17513</field>
-        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
-        <field name="Mfr.Part">0805W8F1001T5E</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E6A13AC</tstamp>
-    </comp>
-    <comp ref="C7">
+    <comp ref="C5">
       <value>330pF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/1810191220_Samsung-Electro-Mechanics-CL21B331KBANNNC_C51207.pdf</datasheet>
       <fields>
-        <field name="Description">330pF ±10% 50V X7R 0805 Multilayer Ceramic Capacitors</field>
+        <field name="Description">50V 330pF X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS</field>
+        <field name="Digikey">1276-1765-1-ND</field>
         <field name="LCSC">C51207</field>
         <field name="Manufacturer">Samsung Electro-Mechanics</field>
         <field name="Mfr.Part">CL21B331KBANNNC</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Description" value="50V 330pF X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Mfr.Part" value="CL21B331KBANNNC"/>
+      <property name="LCSC" value="C51207"/>
+      <property name="Digikey" value="1276-1765-1-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C64-Composite-Modulator.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>60B0E2C9</tstamp>
+      <tstamps>00000000-0000-0000-0000-00005e6b6597</tstamps>
     </comp>
-    <comp ref="J4">
-      <value>Conn_01x04_Male</value>
-      <footprint>C64 Composite Modulator:mill-max-800-10-004-10-001000</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/1811092112_BOOMELE-Boom-Precision-Elec-C9742_C9742.pdf</datasheet>
+    <comp ref="C6">
+      <value>68pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1912112237_Samsung-Electro-Mechanics-CL21C680JBANNNC_C193697.pdf</datasheet>
       <fields>
-        <field name="Description">Pin Header 40x1 Straight，180degrees 2.54mm Pin Header</field>
-        <field name="LCSC">C9742</field>
-        <field name="Manufacturer">BOOMELE(Boom Precision Elec)</field>
-        <field name="Mfr.Part">C9742</field>
-        <field name="Notes">Cut to 4 pins</field>
+        <field name="Description">68pF ±5% 50V C0G 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT RoHS</field>
+        <field name="Digikey">1276-1136-1-ND</field>
+        <field name="LCSC">C193697</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Mfr.Part">CL21C680JBANNNC</field>
       </fields>
-      <libsource lib="Connector" part="Conn_01x04_Male" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Description" value="68pF ±5% 50V C0G 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT RoHS"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Mfr.Part" value="CL21C680JBANNNC"/>
+      <property name="LCSC" value="C193697"/>
+      <property name="Digikey" value="1276-1136-1-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C64-Composite-Modulator.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>60B32CB8</tstamp>
+      <tstamps>00000000-0000-0000-0000-000060b7a303</tstamps>
     </comp>
-    <comp ref="J1">
-      <value>Conn_01x04_Male</value>
-      <footprint>C64 Composite Modulator:mill-max-800-10-004-10-001000</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/1811092112_BOOMELE-Boom-Precision-Elec-C9742_C9742.pdf</datasheet>
+    <comp ref="CLB1">
+      <value>Modulator_Board_To_Long_Board</value>
+      <footprint>C64 Composite Modulator:Modulator to Long-Board support</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811132313_BOOMELE-Boom-Precision-Elec-C49257_C49257.pdf</datasheet>
       <fields>
-        <field name="Description">Pin Header 40x1 Straight，180degrees 2.54mm Pin Header</field>
-        <field name="LCSC">C9742</field>
+        <field name="Description"> 	3A Straight Square Pins -40℃~+105℃ 1 3 2.54mm Black 1x3P Plugin,P=2.54mm Pin Headers</field>
+        <field name="Digikey">1212-1172-ND</field>
+        <field name="LCSC">C49257</field>
         <field name="Manufacturer">BOOMELE(Boom Precision Elec)</field>
-        <field name="Mfr.Part">C9742</field>
-        <field name="Notes">Cut to 4 pins</field>
+        <field name="Mfr.Part">C49257</field>
       </fields>
-      <libsource lib="Connector" part="Conn_01x04_Male" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <libsource lib="C64_Composite_Modulator" part="Modulator_Board_To_Long_Board" description="Board to Board connector for the C64 Long-Board"/>
+      <property name="Description" value=" &#x9;3A Straight Square Pins -40℃~+105℃ 1 3 2.54mm Black 1x3P Plugin,P=2.54mm Pin Headers"/>
+      <property name="Digikey" value="1212-1172-ND"/>
+      <property name="LCSC" value="C49257"/>
+      <property name="Manufacturer" value="BOOMELE(Boom Precision Elec)"/>
+      <property name="Mfr.Part" value="C49257"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C64-Composite-Modulator.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>60B33D6B</tstamp>
+      <tstamps>f6ddabf6-d315-4ce4-8aa0-1c8f6c00a9f3</tstamps>
     </comp>
-    <comp ref="J2">
-      <value>Conn_01x04_Male</value>
-      <footprint>C64 Composite Modulator:mill-max-800-10-004-10-001000</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/1811092112_BOOMELE-Boom-Precision-Elec-C9742_C9742.pdf</datasheet>
+    <comp ref="CO1">
+      <value>330pF</value>
+      <footprint>Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1912111437_TDK-CK45-B3AD331KYVNA_C342340.pdf</datasheet>
       <fields>
-        <field name="Description">Pin Header 40x1 Straight，180degrees 2.54mm Pin Header</field>
-        <field name="LCSC">C9742</field>
-        <field name="Manufacturer">BOOMELE(Boom Precision Elec)</field>
-        <field name="Mfr.Part">C9742</field>
-        <field name="Notes">Cut to 4 pins</field>
+        <field name="Description">±10% 330pF B 5mm 5.5mm 5mm 1kV Radial Leaded,P=5mm Ceramic Disc Capacitor</field>
+        <field name="Digikey">445-CK45-B3AD331KYVNA-ND</field>
+        <field name="LCSC">C342340</field>
+        <field name="Manufacturer">TDK</field>
+        <field name="Mfr.Part">CK45-B3AD331KYVNA</field>
+        <field name="Notes">Optionnal, install for LCD fix if needed</field>
       </fields>
-      <libsource lib="Connector" part="Conn_01x04_Male" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Description" value="±10% 330pF B 5mm 5.5mm 5mm 1kV Radial Leaded,P=5mm Ceramic Disc Capacitor"/>
+      <property name="Manufacturer" value="TDK"/>
+      <property name="Mfr.Part" value="CK45-B3AD331KYVNA"/>
+      <property name="LCSC" value="C342340"/>
+      <property name="Notes" value="Optionnal, install for LCD fix if needed"/>
+      <property name="Digikey" value="445-CK45-B3AD331KYVNA-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C64-Composite-Modulator.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>60B34C0A</tstamp>
+      <tstamps>00000000-0000-0000-0000-000060b0e2c9</tstamps>
     </comp>
-    <comp ref="LB2">
-      <value>Conn_01x01_Male</value>
-      <footprint>C64 Composite Modulator:mill-max-800-10-001-10-001000</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/1811092112_BOOMELE-Boom-Precision-Elec-C9742_C9742.pdf</datasheet>
+    <comp ref="CSB1">
+      <value>Modulator_Board_To_Short_Board</value>
+      <footprint>C64 Composite Modulator:Modulator to Short-Board support</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811132313_BOOMELE-Boom-Precision-Elec-C49257_C49257.pdf</datasheet>
       <fields>
-        <field name="Description">Pin Header 40x1 Straight，180degrees 2.54mm Pin Header</field>
-        <field name="LCSC">C9742</field>
+        <field name="Description"> 	3A Straight Square Pins -40℃~+105℃ 1 3 2.54mm Black 1x3P Plugin,P=2.54mm Pin Headers</field>
+        <field name="Digikey">1212-1172-ND</field>
+        <field name="LCSC">C49257</field>
         <field name="Manufacturer">BOOMELE(Boom Precision Elec)</field>
-        <field name="Mfr.Part">C9742</field>
-        <field name="Notes">Cut to 1 Pin</field>
+        <field name="Mfr.Part">C49257</field>
       </fields>
-      <libsource lib="Connector" part="Conn_01x01_Male" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <libsource lib="C64_Composite_Modulator" part="Modulator_Board_To_Short_Board" description="Board to Board connector for the C64C Short-Board"/>
+      <property name="Description" value=" &#x9;3A Straight Square Pins -40℃~+105℃ 1 3 2.54mm Black 1x3P Plugin,P=2.54mm Pin Headers"/>
+      <property name="Digikey" value="1212-1172-ND"/>
+      <property name="LCSC" value="C49257"/>
+      <property name="Manufacturer" value="BOOMELE(Boom Precision Elec)"/>
+      <property name="Mfr.Part" value="C49257"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C64-Composite-Modulator.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>60B3B92A</tstamp>
+      <tstamps>e15ad39a-3509-4214-bd56-b364de7f62a2</tstamps>
     </comp>
-    <comp ref="LB3">
-      <value>Conn_01x01_Male</value>
-      <footprint>C64 Composite Modulator:mill-max-800-10-001-10-001000</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/1811092112_BOOMELE-Boom-Precision-Elec-C9742_C9742.pdf</datasheet>
+    <comp ref="D1">
+      <value>1N4148WS</value>
+      <footprint>Diode_SMD:D_SOD-323F</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1810101110_Changjiang-Electronics-Tech-CJ-1N4148WS_C2128.pdf</datasheet>
       <fields>
-        <field name="Description">Pin Header 40x1 Straight，180degrees 2.54mm Pin Header</field>
-        <field name="LCSC">C9742</field>
-        <field name="Manufacturer">BOOMELE(Boom Precision Elec)</field>
-        <field name="Mfr.Part">C9742</field>
-        <field name="Notes">Cut to 1 Pin</field>
+        <field name="Description">100V 150mA 1.25V @ 150mA 4ns SOD-323 Switching Diode</field>
+        <field name="Digikey">1N4148WSFSCT-ND</field>
+        <field name="LCSC">C2128</field>
+        <field name="Manufacturer">Changjiang Electronics Tech</field>
+        <field name="Mfr.Part">1N4148WS</field>
       </fields>
-      <libsource lib="Connector" part="Conn_01x01_Male" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="Description" value="100V 150mA 1.25V @ 150mA 4ns SOD-323 Switching Diode"/>
+      <property name="Manufacturer" value="Changjiang Electronics Tech"/>
+      <property name="Mfr.Part" value="1N4148WS"/>
+      <property name="LCSC" value="C2128"/>
+      <property name="Digikey" value="1N4148WSFSCT-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C64-Composite-Modulator.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>60B3C0FD</tstamp>
+      <tstamps>00000000-0000-0000-0000-000060b7a319</tstamps>
     </comp>
-    <comp ref="LB4">
-      <value>Conn_01x01_Male</value>
-      <footprint>C64 Composite Modulator:mill-max-800-10-001-10-001000</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/1811092112_BOOMELE-Boom-Precision-Elec-C9742_C9742.pdf</datasheet>
-      <fields>
-        <field name="Description">Pin Header 40x1 Straight，180degrees 2.54mm Pin Header</field>
-        <field name="LCSC">C9742</field>
-        <field name="Manufacturer">BOOMELE(Boom Precision Elec)</field>
-        <field name="Mfr.Part">C9742</field>
-        <field name="Notes">Cut to 1 Pin</field>
-      </fields>
-      <libsource lib="Connector" part="Conn_01x01_Male" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+    <comp ref="G1">
+      <value>BCD_Logo</value>
+      <footprint>BeaupreCircuitDesign:BCD_Logo_5mm</footprint>
+      <libsource lib="BeaupreCircuitDesign" part="BCD_Logo" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C64-Composite-Modulator.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>60B3C920</tstamp>
+      <tstamps>e3832ee0-1420-4837-8b90-d0d7e2a2bef1</tstamps>
     </comp>
-    <comp ref="SB1">
-      <value>Conn_01x01_Male</value>
-      <footprint>C64 Composite Modulator:mill-max-800-10-001-10-001000</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/1811092112_BOOMELE-Boom-Precision-Elec-C9742_C9742.pdf</datasheet>
-      <fields>
-        <field name="Description">Pin Header 40x1 Straight，180degrees 2.54mm Pin Header</field>
-        <field name="LCSC">C9742</field>
-        <field name="Manufacturer">BOOMELE(Boom Precision Elec)</field>
-        <field name="Mfr.Part">C9742</field>
-        <field name="Notes">Cut to 1 Pin</field>
-      </fields>
-      <libsource lib="Connector" part="Conn_01x01_Male" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+    <comp ref="G2">
+      <value>ChickenLips</value>
+      <footprint>BeaupreCircuitDesign:ChickenLips_2.5mm</footprint>
+      <libsource lib="BeaupreCircuitDesign" part="ChickenLips" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C64-Composite-Modulator.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>60B3F060</tstamp>
+      <tstamps>acf49296-920c-45fd-a173-3170e3f2ee8c</tstamps>
     </comp>
-    <comp ref="SB2">
-      <value>Conn_01x01_Male</value>
-      <footprint>C64 Composite Modulator:mill-max-800-10-001-10-001000</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/1811092112_BOOMELE-Boom-Precision-Elec-C9742_C9742.pdf</datasheet>
-      <fields>
-        <field name="Description">Pin Header 40x1 Straight，180degrees 2.54mm Pin Header</field>
-        <field name="LCSC">C9742</field>
-        <field name="Manufacturer">BOOMELE(Boom Precision Elec)</field>
-        <field name="Mfr.Part">C9742</field>
-        <field name="Notes">Cut to 1 Pin</field>
-      </fields>
-      <libsource lib="Connector" part="Conn_01x01_Male" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+    <comp ref="G3">
+      <value>OpenSource_Hardware</value>
+      <footprint>BeaupreCircuitDesign:Open_Source_Hardware_2.5mm</footprint>
+      <libsource lib="BeaupreCircuitDesign" part="OpenSource_Hardware" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C64-Composite-Modulator.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>60B3FF4B</tstamp>
+      <tstamps>dc886c5e-a5f6-4616-871c-430666d8ce6c</tstamps>
     </comp>
-    <comp ref="JP2">
-      <value>Jumper_3_Open</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/1811151411_BOOMELE-Boom-Precision-Elec-2-54mm-1x40P_C2337.pdf</datasheet>
-      <fields>
-        <field name="Description">Pin Header 3x1 Straight，180degrees 2.54mm Through Hole Pin Header</field>
-        <field name="LCSC">C2337</field>
-        <field name="Manufacturer">BOOMELE(Boom Precision Elec)</field>
-        <field name="Mfr.Part">2.54mm 1x40P</field>
-        <field name="Notes">Cut to 3 pins</field>
-      </fields>
-      <libsource lib="Jumper" part="Jumper_3_Open" description="Jumper, 3-pole, both open"/>
+    <comp ref="G4">
+      <value>Skull</value>
+      <footprint>BeaupreCircuitDesign:Skull_2.5mm</footprint>
+      <libsource lib="BeaupreCircuitDesign" part="Skull" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C64-Composite-Modulator.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>60B56237</tstamp>
+      <tstamps>38614e2b-8aa4-468d-b133-724cf5e662a6</tstamps>
+    </comp>
+    <comp ref="G5">
+      <value>CreativeCommons</value>
+      <footprint>Creative_Common:CreativeCommons_2.5mm</footprint>
+      <libsource lib="CreativeCommons" part="CreativeCommons" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C64-Composite-Modulator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>df4aab5a-d901-4e0a-9d6f-2594c4707e0c</tstamps>
+    </comp>
+    <comp ref="G6">
+      <value>CreativeCommons_Attribution</value>
+      <footprint>Creative_Common:CreativeCommons_Attribution_2.5mm</footprint>
+      <libsource lib="CreativeCommons" part="CreativeCommons_Attribution" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C64-Composite-Modulator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>28e3e5aa-0020-425a-a3b0-c95b86a3e62e</tstamps>
+    </comp>
+    <comp ref="G7">
+      <value>CreativeCommons_NonCommercial</value>
+      <footprint>Creative_Common:CreativeCommons_NonCommercial_2.5mm</footprint>
+      <libsource lib="CreativeCommons" part="CreativeCommons_NonCommercial" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C64-Composite-Modulator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b10a4496-aa57-4047-99e8-9ebd6e444afd</tstamps>
+    </comp>
+    <comp ref="G8">
+      <value>CreativeCommons_ShareAlike</value>
+      <footprint>Creative_Common:CreativeCommons_ShareAlike_2.5mm</footprint>
+      <libsource lib="CreativeCommons" part="CreativeCommons_ShareAlike" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C64-Composite-Modulator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>80a7fdd4-7378-41e4-9caa-b71706a892bd</tstamps>
     </comp>
     <comp ref="JP1">
       <value>Jumper_3_Open</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/1811151411_BOOMELE-Boom-Precision-Elec-2-54mm-1x40P_C2337.pdf</datasheet>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811132313_BOOMELE-Boom-Precision-Elec-C49257_C49257.pdf</datasheet>
       <fields>
-        <field name="Description">Pin Header 3x1 Straight，180degrees 2.54mm Through Hole Pin Header</field>
-        <field name="LCSC">C2337</field>
+        <field name="Description"> 	3A Straight Square Pins -40℃~+105℃ 1 3 2.54mm Black 1x3P Plugin,P=2.54mm Pin Headers</field>
+        <field name="Digikey">609-3461-ND</field>
+        <field name="LCSC">C49257</field>
         <field name="Manufacturer">BOOMELE(Boom Precision Elec)</field>
-        <field name="Mfr.Part">2.54mm 1x40P</field>
-        <field name="Notes">Cut to 3 pins</field>
+        <field name="Mfr.Part">C49257</field>
       </fields>
       <libsource lib="Jumper" part="Jumper_3_Open" description="Jumper, 3-pole, both open"/>
+      <property name="Description" value=" &#x9;3A Straight Square Pins -40℃~+105℃ 1 3 2.54mm Black 1x3P Plugin,P=2.54mm Pin Headers"/>
+      <property name="Manufacturer" value="BOOMELE(Boom Precision Elec)"/>
+      <property name="Mfr.Part" value="C49257"/>
+      <property name="LCSC" value="C49257"/>
+      <property name="Notes" value=""/>
+      <property name="Digikey" value="609-3461-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C64-Composite-Modulator.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>60B5AE81</tstamp>
+      <tstamps>00000000-0000-0000-0000-000060b5ae81</tstamps>
+    </comp>
+    <comp ref="JP2">
+      <value>Jumper_3_Open</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811132313_BOOMELE-Boom-Precision-Elec-C49257_C49257.pdf</datasheet>
+      <fields>
+        <field name="Description"> 	3A Straight Square Pins -40℃~+105℃ 1 3 2.54mm Black 1x3P Plugin,P=2.54mm Pin Headers</field>
+        <field name="Digikey">609-3461-ND</field>
+        <field name="LCSC">C49257</field>
+        <field name="Manufacturer">BOOMELE(Boom Precision Elec)</field>
+        <field name="Mfr.Part">C49257</field>
+      </fields>
+      <libsource lib="Jumper" part="Jumper_3_Open" description="Jumper, 3-pole, both open"/>
+      <property name="Description" value=" &#x9;3A Straight Square Pins -40℃~+105℃ 1 3 2.54mm Black 1x3P Plugin,P=2.54mm Pin Headers"/>
+      <property name="Manufacturer" value="BOOMELE(Boom Precision Elec)"/>
+      <property name="Mfr.Part" value="C49257"/>
+      <property name="LCSC" value="C49257"/>
+      <property name="Notes" value=""/>
+      <property name="Digikey" value="609-3461-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C64-Composite-Modulator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060ea1e5e</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>10uH</value>
+      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2110081230_Sunlord-MCL2012H100MT_C95978.pdf</datasheet>
+      <fields>
+        <field name="Description">100mA 10uH ±20% 650mΩ 0805 Inductors (SMD) ROHS</field>
+        <field name="Digikey">587-2452-1-ND</field>
+        <field name="LCSC">C95978</field>
+        <field name="Manufacturer">Sunlord</field>
+        <field name="Mfr.Part">MCL2012H100MT</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Description" value="100mA 10uH ±20% 650mΩ 0805 Inductors (SMD) ROHS"/>
+      <property name="Manufacturer" value="Sunlord"/>
+      <property name="Mfr.Part" value="MCL2012H100MT"/>
+      <property name="LCSC" value="C95978"/>
+      <property name="Digikey" value="587-2452-1-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C64-Composite-Modulator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060b7a2f5</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>BC847C</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811141238_Nexperia-BC847C-215_C8664.pdf</datasheet>
+      <fields>
+        <field name="Description">45V 250mW 100mA 520@2mA,5V 100MHz 200mV@100mA,5mA NPN +150℃@(Tj) SOT-23(SOT-23-3) Bipolar Transistors - BJT ROHS</field>
+        <field name="Digikey">1727-2924-1-ND</field>
+        <field name="LCSC">C8664</field>
+        <field name="Manufacturer">Nexperia</field>
+        <field name="Mfr.Part">BC847C,215</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="BC847" description="0.1A Ic, 45V Vce, NPN Transistor, SOT-23"/>
+      <property name="Description" value="45V 250mW 100mA 520@2mA,5V 100MHz 200mV@100mA,5mA NPN +150℃@(Tj) SOT-23(SOT-23-3) Bipolar Transistors - BJT ROHS"/>
+      <property name="Manufacturer" value="Nexperia"/>
+      <property name="Mfr.Part" value="BC847C,215"/>
+      <property name="LCSC" value="C8664"/>
+      <property name="Digikey" value="1727-2924-1-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C64-Composite-Modulator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005e6aea7a</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>BC847C</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811141238_Nexperia-BC847C-215_C8664.pdf</datasheet>
+      <fields>
+        <field name="Description">45V 250mW 100mA 520@2mA,5V 100MHz 200mV@100mA,5mA NPN +150℃@(Tj) SOT-23(SOT-23-3) Bipolar Transistors - BJT ROHS</field>
+        <field name="Digikey">1727-2924-1-ND</field>
+        <field name="LCSC">C8664</field>
+        <field name="Manufacturer">Nexperia</field>
+        <field name="Mfr.Part">BC847C,215</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="BC847" description="0.1A Ic, 45V Vce, NPN Transistor, SOT-23"/>
+      <property name="Description" value="45V 250mW 100mA 520@2mA,5V 100MHz 200mV@100mA,5mA NPN +150℃@(Tj) SOT-23(SOT-23-3) Bipolar Transistors - BJT ROHS"/>
+      <property name="Manufacturer" value="Nexperia"/>
+      <property name="Mfr.Part" value="BC847C,215"/>
+      <property name="LCSC" value="C8664"/>
+      <property name="Digikey" value="1727-2924-1-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C64-Composite-Modulator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060b7a383</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>1KΩ</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811022111_UNI-ROYAL-Uniroyal-Elec-0805W8F1001T5E_C17513.pdf</datasheet>
+      <fields>
+        <field name="Description">1kΩ ±1% 0.125W ±100ppm/℃ 0805 Chip Resistor</field>
+        <field name="Digikey">13-RC0805JR-131KLCT-ND</field>
+        <field name="LCSC">C17513</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Mfr.Part">0805W8F1001T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Description" value="1kΩ ±1% 0.125W ±100ppm/℃ 0805 Chip Resistor"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="Mfr.Part" value="0805W8F1001T5E"/>
+      <property name="LCSC" value="C17513"/>
+      <property name="Digikey" value="13-RC0805JR-131KLCT-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C64-Composite-Modulator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005e6a13ac</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>3K3Ω</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1809140022_UNI-ROYAL-Uniroyal-Elec-0805W8F3301T5E_C26010.pdf</datasheet>
+      <fields>
+        <field name="Description">3.3kΩ ±1% 0.125W ±100ppm/℃ 0805 Chip Resistor</field>
+        <field name="Digikey">13-RC0805JR-133K3LCT-ND</field>
+        <field name="LCSC">C26010</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Mfr.Part">0805W8F3301T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Description" value="3.3kΩ ±1% 0.125W ±100ppm/℃ 0805 Chip Resistor"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="Mfr.Part" value="0805W8F3301T5E"/>
+      <property name="LCSC" value="C26010"/>
+      <property name="Digikey" value="13-RC0805JR-133K3LCT-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C64-Composite-Modulator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005e6a20b7</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>5K6Ω</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1810301830_UNI-ROYAL-Uniroyal-Elec-0805W8F5601T5E_C4382.pdf</datasheet>
+      <fields>
+        <field name="Description">5.6kΩ ±1% 0.125W ±100ppm/℃ 0805 Chip Resistor</field>
+        <field name="Digikey">13-RC0805JR-105K6LCT-ND</field>
+        <field name="LCSC">C4382</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Mfr.Part">0805W8F5601T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Description" value="5.6kΩ ±1% 0.125W ±100ppm/℃ 0805 Chip Resistor"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="Mfr.Part" value="0805W8F5601T5E"/>
+      <property name="LCSC" value="C4382"/>
+      <property name="Digikey" value="13-RC0805JR-105K6LCT-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C64-Composite-Modulator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005e6a34ba</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>68Ω</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1810301620_UNI-ROYAL-Uniroyal-Elec-0805W8F680JT5E_C17802.pdf</datasheet>
+      <fields>
+        <field name="Description">68Ω ±1% 0.125W ±200ppm/℃ 0805 Chip Resistor</field>
+        <field name="Digikey">804-1106-1-ND</field>
+        <field name="LCSC">C17802</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Mfr.Part">0805W8F680JT5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Description" value="68Ω ±1% 0.125W ±200ppm/℃ 0805 Chip Resistor"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="Mfr.Part" value="0805W8F680JT5E"/>
+      <property name="LCSC" value="C17802"/>
+      <property name="Digikey" value="804-1106-1-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C64-Composite-Modulator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005e6a3b3f</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>220Ω</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1810241809_UNI-ROYAL-Uniroyal-Elec-0805W8F2200T5E_C17557.pdf</datasheet>
+      <fields>
+        <field name="Description">220Ω ±1% 0.125W ±100ppm/℃ 0805 Chip Resistor</field>
+        <field name="Digikey">13-RC0805JR-13220RLCT-ND</field>
+        <field name="LCSC">C17557</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Mfr.Part">0805W8F2200T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Description" value="220Ω ±1% 0.125W ±100ppm/℃ 0805 Chip Resistor"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="Mfr.Part" value="0805W8F2200T5E"/>
+      <property name="LCSC" value="C17557"/>
+      <property name="Digikey" value="13-RC0805JR-13220RLCT-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C64-Composite-Modulator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005e6a40c9</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>470Ω</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811050105_UNI-ROYAL-Uniroyal-Elec-0805W8F4700T5E_C17710.pdf</datasheet>
+      <fields>
+        <field name="Description">470Ω ±1% 0.125W ±100ppm/℃ 0805 Chip Resistor</field>
+        <field name="Digikey">13-RC0805JR-13470RLCT-ND</field>
+        <field name="LCSC">C17710</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Mfr.Part">0805W8F4700T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Description" value="470Ω ±1% 0.125W ±100ppm/℃ 0805 Chip Resistor"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="Mfr.Part" value="0805W8F4700T5E"/>
+      <property name="LCSC" value="C17710"/>
+      <property name="Digikey" value="13-RC0805JR-13470RLCT-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C64-Composite-Modulator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005e86cd09</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>1KΩ</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811022111_UNI-ROYAL-Uniroyal-Elec-0805W8F1001T5E_C17513.pdf</datasheet>
+      <fields>
+        <field name="Description">1kΩ ±1% 0.125W ±100ppm/℃ 0805 Chip Resistor</field>
+        <field name="Digikey">13-RC0805JR-131KLCT-ND</field>
+        <field name="LCSC">C17513</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Mfr.Part">0805W8F1001T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Description" value="1kΩ ±1% 0.125W ±100ppm/℃ 0805 Chip Resistor"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="Mfr.Part" value="0805W8F1001T5E"/>
+      <property name="LCSC" value="C17513"/>
+      <property name="Digikey" value="13-RC0805JR-131KLCT-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C64-Composite-Modulator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005e875462</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>150Ω</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1810301815_UNI-ROYAL-Uniroyal-Elec-0805W8F1500T5E_C17471.pdf</datasheet>
+      <fields>
+        <field name="Description">150Ω ±1% 0.125W ±100ppm/℃ 0805 Chip Resistor</field>
+        <field name="Digikey">13-RC0805JR-13150RLCT-ND</field>
+        <field name="LCSC">C17471</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Mfr.Part">0805W8F1500T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Description" value="150Ω ±1% 0.125W ±100ppm/℃ 0805 Chip Resistor"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="Mfr.Part" value="0805W8F1500T5E"/>
+      <property name="LCSC" value="C17471"/>
+      <property name="Digikey" value="13-RC0805JR-13150RLCT-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C64-Composite-Modulator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060b7a332</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>150Ω</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1810301815_UNI-ROYAL-Uniroyal-Elec-0805W8F1500T5E_C17471.pdf</datasheet>
+      <fields>
+        <field name="Description">150Ω ±1% 0.125W ±100ppm/℃ 0805 Chip Resistor</field>
+        <field name="Digikey">13-RC0805JR-13150RLCT-ND</field>
+        <field name="LCSC">C17471</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Mfr.Part">0805W8F1500T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Description" value="150Ω ±1% 0.125W ±100ppm/℃ 0805 Chip Resistor"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="Mfr.Part" value="0805W8F1500T5E"/>
+      <property name="LCSC" value="C17471"/>
+      <property name="Digikey" value="13-RC0805JR-13150RLCT-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C64-Composite-Modulator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060b7a342</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>75Ω</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1810301620_UNI-ROYAL-Uniroyal-Elec-0805W8F750JT5E_C17820.pdf</datasheet>
+      <fields>
+        <field name="Description">75Ω ±1% 0.125W ±200ppm/℃ 0805 Chip Resistor</field>
+        <field name="Digikey">13-RC0805FR-1375RLCT-ND</field>
+        <field name="LCSC">C17820</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Mfr.Part">0805W8F750JT5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Description" value="75Ω ±1% 0.125W ±200ppm/℃ 0805 Chip Resistor"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="Mfr.Part" value="0805W8F750JT5E"/>
+      <property name="LCSC" value="C17820"/>
+      <property name="Digikey" value="13-RC0805FR-1375RLCT-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C64-Composite-Modulator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060b7a35a</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>150Ω</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1810301815_UNI-ROYAL-Uniroyal-Elec-0805W8F1500T5E_C17471.pdf</datasheet>
+      <fields>
+        <field name="Description">150Ω ±1% 0.125W ±100ppm/℃ 0805 Chip Resistor</field>
+        <field name="Digikey">13-RC0805JR-13150RLCT-ND</field>
+        <field name="LCSC">C17471</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Mfr.Part">0805W8F1500T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Description" value="150Ω ±1% 0.125W ±100ppm/℃ 0805 Chip Resistor"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="Mfr.Part" value="0805W8F1500T5E"/>
+      <property name="LCSC" value="C17471"/>
+      <property name="Digikey" value="13-RC0805JR-13150RLCT-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C64-Composite-Modulator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060b79fe5</tstamps>
+    </comp>
+    <comp ref="RV1">
+      <value>1KΩ</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811011713_BOCHEN-Chengdu-Guosheng-Tech-3296W-1-102_C118949.pdf</datasheet>
+      <fields>
+        <field name="Description">±100ppm/℃ ±10% 500mW 25 1kΩ Plugin Variable Resistors/Potentiometers ROHS </field>
+        <field name="Digikey">3296W-102-ND</field>
+        <field name="LCSC">C118949</field>
+        <field name="Manufacturer">BOCHEN(Chengdu Guosheng Tech) </field>
+        <field name="Mfr.Part">3296W-1-102</field>
+      </fields>
+      <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="Description" value="±100ppm/℃ ±10% 500mW 25 1kΩ Plugin Variable Resistors/Potentiometers ROHS "/>
+      <property name="Manufacturer" value="BOCHEN(Chengdu Guosheng Tech) "/>
+      <property name="Mfr.Part" value="3296W-1-102"/>
+      <property name="LCSC" value="C118949"/>
+      <property name="Digikey" value="3296W-102-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C64-Composite-Modulator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005eaa98f2</tstamps>
+    </comp>
+    <comp ref="RV2">
+      <value>500Ω</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811101609_BOCHEN-Chengdu-Guosheng-Tech-3296W-1-500_C118908.pdf</datasheet>
+      <fields>
+        <field name="Description">±250ppm/℃ ±10% 50Ω Plugin Variable Resistors/Potentiometers ROHS </field>
+        <field name="Digikey">3296W-500-ND</field>
+        <field name="LCSC">C118908</field>
+        <field name="Manufacturer">BOCHEN(Chengdu Guosheng Tech)</field>
+        <field name="Mfr.Part">3296W-1-500</field>
+      </fields>
+      <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="Description" value="±250ppm/℃ ±10% 50Ω Plugin Variable Resistors/Potentiometers ROHS "/>
+      <property name="Manufacturer" value="BOCHEN(Chengdu Guosheng Tech)"/>
+      <property name="Mfr.Part" value="3296W-1-500"/>
+      <property name="LCSC" value="C118908"/>
+      <property name="Digikey" value="3296W-500-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C64-Composite-Modulator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060b7a391</tstamps>
+    </comp>
+    <comp ref="TP1">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C64-Composite-Modulator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5d5f62ab-cb2f-4bb6-a5e5-ac5fed2066e6</tstamps>
+    </comp>
+    <comp ref="TP2">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C64-Composite-Modulator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060d30c14</tstamps>
+    </comp>
+    <comp ref="TP3">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C64-Composite-Modulator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060d2eb96</tstamps>
+    </comp>
+    <comp ref="TP4">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C64-Composite-Modulator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060d7b0a7</tstamps>
+    </comp>
+    <comp ref="TP5">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C64-Composite-Modulator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060d85824</tstamps>
+    </comp>
+    <comp ref="TP6">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C64-Composite-Modulator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060d5bec3</tstamps>
+    </comp>
+    <comp ref="TP7">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C64-Composite-Modulator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060d55c90</tstamps>
+    </comp>
+    <comp ref="TP8">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C64-Composite-Modulator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060d838ef</tstamps>
+    </comp>
+    <comp ref="TV1">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C64-Composite-Modulator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>919b63ad-bebe-44d7-81bf-10349911826f</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>78L05G-AB3-R</value>
+      <footprint>Package_TO_SOT_SMD:SOT-89-3</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1809200029_UTC-Unisonic-Tech-78L05G-AB3-R_C71136.pdf</datasheet>
+      <fields>
+        <field name="Description">Fixed 30V 5V 1.7V @ 40mA(typ) SOT-89(SOT-89-3) Dropout Regulators</field>
+        <field name="Digikey">ZSR500GCT-ND</field>
+        <field name="LCSC">C71136</field>
+        <field name="Manufacturer">UTC(Unisonic Tech)</field>
+        <field name="Mfr.Part">78L05G-AB3-R</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="L78L05_SOT89" description="Positive 100mA 30V Linear Regulator, Fixed Output 5V, SOT-89"/>
+      <property name="Description" value="Fixed 30V 5V 1.7V @ 40mA(typ) SOT-89(SOT-89-3) Dropout Regulators"/>
+      <property name="LCSC" value="C71136"/>
+      <property name="Manufacturer" value="UTC(Unisonic Tech)"/>
+      <property name="Mfr.Part" value="78L05G-AB3-R"/>
+      <property name="Digikey" value="ZSR500GCT-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C64-Composite-Modulator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eda8071c-e750-4143-94ce-008a130d30f2</tstamps>
+    </comp>
+    <comp ref="V1">
+      <value>Conn_Coaxial</value>
+      <footprint>CUI_Devices:RCJ-014</footprint>
+      <datasheet>https://www.cuidevices.com/product/resource/digikeypdf/rcj-01x.pdf</datasheet>
+      <fields>
+        <field name="Description">3.20mm ID, 9.00mm OD (RCA) Phono (RCA) Jack Mono Connector Solder</field>
+        <field name="Digikey">CP-1403-ND</field>
+        <field name="Manufacturer">CUI Devices</field>
+        <field name="Mfr.Part">RCJ-014</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"/>
+      <property name="Description" value="3.20mm ID, 9.00mm OD (RCA) Phono (RCA) Jack Mono Connector Solder"/>
+      <property name="Manufacturer" value="CUI Devices"/>
+      <property name="Mfr.Part" value="RCJ-014"/>
+      <property name="Digikey" value="CP-1403-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C64-Composite-Modulator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000610decff</tstamps>
     </comp>
   </components>
   <libparts>
-    <libpart lib="BCD" part="BCD(DOT)">
+    <libpart lib="BeaupreCircuitDesign" part="BCD_Logo">
       <fields>
-        <field name="Reference">BCD</field>
-        <field name="Value">BCD(DOT)</field>
-        <field name="Footprint">BCD:BCD_LOGO_DOT-xxxsmall</field>
+        <field name="Reference">G</field>
+        <field name="Value">BCD_Logo</field>
+        <field name="Footprint">BeaupreCircuitDesign:BCD_Logo_5mm</field>
       </fields>
     </libpart>
-    <libpart lib="BCD" part="CC">
+    <libpart lib="BeaupreCircuitDesign" part="ChickenLips">
       <fields>
-        <field name="Reference">CC</field>
-        <field name="Value">CC</field>
-        <field name="Footprint">BCD:CC-Logo-xxxsmall</field>
+        <field name="Reference">G</field>
+        <field name="Value">ChickenLips</field>
+        <field name="Footprint">BeaupreCircuitDesign:ChickenLips_5mm</field>
       </fields>
     </libpart>
-    <libpart lib="BCD" part="CC-BY">
+    <libpart lib="BeaupreCircuitDesign" part="OpenSource_Hardware">
       <fields>
-        <field name="Reference">BY</field>
-        <field name="Value">CC-BY</field>
-        <field name="Footprint">BCD:CC-BY-xxxsmall</field>
+        <field name="Reference">G</field>
+        <field name="Value">OpenSource_Hardware</field>
+        <field name="Footprint">BeaupreCircuitDesign:Open_Source_Hardware_5mm</field>
       </fields>
     </libpart>
-    <libpart lib="BCD" part="CC-NC">
+    <libpart lib="BeaupreCircuitDesign" part="Skull">
       <fields>
-        <field name="Reference">NC</field>
-        <field name="Value">CC-NC</field>
-        <field name="Footprint">BCD:CC-NC-xxxsmall</field>
+        <field name="Reference">G</field>
+        <field name="Value">Skull</field>
+        <field name="Footprint">BeaupreCircuitDesign:Skull_5mm</field>
       </fields>
     </libpart>
-    <libpart lib="BCD" part="CC-SA">
+    <libpart lib="C64_Composite_Modulator" part="Modulator_Board_To_Long_Board">
+      <description>Board to Board connector for the C64 Long-Board</description>
       <fields>
-        <field name="Reference">SA</field>
-        <field name="Value">CC-SA</field>
-        <field name="Footprint">BCD:CC-SA-xxxsmall</field>
-      </fields>
-    </libpart>
-    <libpart lib="BCD" part="Danger">
-      <fields>
-        <field name="Reference">Danger</field>
-        <field name="Value">Danger</field>
-        <field name="Footprint">BCD:Danger-xxxsmall</field>
-      </fields>
-    </libpart>
-    <libpart lib="BCD" part="OSHW">
-      <fields>
-        <field name="Reference">OSHW</field>
-        <field name="Value">OSHW</field>
-        <field name="Footprint">BCD:oshw-xxsmall</field>
-      </fields>
-    </libpart>
-    <libpart lib="C64_Composite_Modulator" part="SJ1-3523N">
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">SJ1-3523N</field>
-        <field name="Footprint">C64-Composite-Modulator:CUI_SJ1-3523N</field>
+        <field name="Reference">C</field>
+        <field name="Value">Modulator_Board_To_Long_Board</field>
+        <field name="Footprint">C64 Composite Modulator:Modulator to Long-Board support</field>
       </fields>
       <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-        <pin num="3" name="~" type="passive"/>
+        <pin num="1" name="+9V" type="passive"/>
+        <pin num="2" name="Sync/Luma_In" type="passive"/>
+        <pin num="3" name="Chroma_In" type="passive"/>
+        <pin num="4" name="Audio_In" type="passive"/>
+        <pin num="5" name="Composite_Out" type="passive"/>
+        <pin num="6" name="Sync/Luma_Out" type="passive"/>
+        <pin num="7" name="Chroma_Out" type="passive"/>
+        <pin num="8" name="Inter_Carrier" type="passive"/>
+        <pin num="9" name="Gnd" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Connector" part="Conn_01x01_Male">
-      <description>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>Connector*:*</fp>
-      </footprints>
+    <libpart lib="C64_Composite_Modulator" part="Modulator_Board_To_Short_Board">
+      <description>Board to Board connector for the C64C Short-Board</description>
       <fields>
-        <field name="Reference">J</field>
-        <field name="Value">Conn_01x01_Male</field>
+        <field name="Reference">C</field>
+        <field name="Value">Modulator_Board_To_Short_Board</field>
+        <field name="Footprint">C64 Composite Modulator:Modulator to Short-Board support</field>
       </fields>
       <pins>
-        <pin num="1" name="Pin_1" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Connector" part="Conn_01x04_Male">
-      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>Connector*:*_1x??_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">Conn_01x04_Male</field>
-      </fields>
-      <pins>
-        <pin num="1" name="Pin_1" type="passive"/>
-        <pin num="2" name="Pin_2" type="passive"/>
-        <pin num="3" name="Pin_3" type="passive"/>
-        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="1" name="+5V" type="passive"/>
+        <pin num="2" name="Sync/Luma_In" type="passive"/>
+        <pin num="3" name="Gnd" type="passive"/>
+        <pin num="4" name="Chroma_In" type="passive"/>
+        <pin num="5" name="Composite_Out" type="passive"/>
+        <pin num="6" name="Sync/Luma_Out" type="passive"/>
+        <pin num="7" name="Chroma_Out" type="passive"/>
+        <pin num="8" name="Audio_In" type="passive"/>
+        <pin num="9" name="Gnd" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Connector" part="Conn_Coaxial">
-      <description>coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)</description>
+      <description>coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)</description>
       <docs> ~</docs>
       <footprints>
         <fp>*BNC*</fp>
@@ -807,10 +936,12 @@
         <fp>*SMB*</fp>
         <fp>*SMC*</fp>
         <fp>*Cinch*</fp>
+        <fp>*LEMO*</fp>
       </footprints>
       <fields>
         <field name="Reference">J</field>
         <field name="Value">Conn_Coaxial</field>
+        <field name="Datasheet"> ~</field>
       </fields>
       <pins>
         <pin num="1" name="In" type="passive"/>
@@ -827,10 +958,39 @@
       <fields>
         <field name="Reference">TP</field>
         <field name="Value">TestPoint</field>
+        <field name="Datasheet">~</field>
       </fields>
       <pins>
         <pin num="1" name="1" type="passive"/>
       </pins>
+    </libpart>
+    <libpart lib="CreativeCommons" part="CreativeCommons">
+      <fields>
+        <field name="Reference">G</field>
+        <field name="Value">CreativeCommons</field>
+        <field name="Footprint">Creative_Common:CreativeCommons_5mm</field>
+      </fields>
+    </libpart>
+    <libpart lib="CreativeCommons" part="CreativeCommons_Attribution">
+      <fields>
+        <field name="Reference">G</field>
+        <field name="Value">CreativeCommons_Attribution</field>
+        <field name="Footprint">Creative_Common:CreativeCommons_Attribution_5mm</field>
+      </fields>
+    </libpart>
+    <libpart lib="CreativeCommons" part="CreativeCommons_NonCommercial">
+      <fields>
+        <field name="Reference">G</field>
+        <field name="Value">CreativeCommons_NonCommercial</field>
+        <field name="Footprint">Creative_Common:CreativeCommons_NonCommercial_5mm</field>
+      </fields>
+    </libpart>
+    <libpart lib="CreativeCommons" part="CreativeCommons_ShareAlike">
+      <fields>
+        <field name="Reference">G</field>
+        <field name="Value">CreativeCommons_ShareAlike</field>
+        <field name="Footprint">Creative_Common:CreativeCommons_ShareAlike_5mm</field>
+      </fields>
     </libpart>
     <libpart lib="Device" part="C">
       <description>Unpolarized capacitor</description>
@@ -841,14 +1001,15 @@
       <fields>
         <field name="Reference">C</field>
         <field name="Value">C</field>
+        <field name="Datasheet">~</field>
       </fields>
       <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Device" part="D_Small_ALT">
-      <description>Diode, small symbol, filled shape</description>
+    <libpart lib="Device" part="D_Small">
+      <description>Diode, small symbol</description>
       <docs>~</docs>
       <footprints>
         <fp>TO-???*</fp>
@@ -858,7 +1019,8 @@
       </footprints>
       <fields>
         <field name="Reference">D</field>
-        <field name="Value">D_Small_ALT</field>
+        <field name="Value">D_Small</field>
+        <field name="Datasheet">~</field>
       </fields>
       <pins>
         <pin num="1" name="K" type="passive"/>
@@ -877,6 +1039,7 @@
       <fields>
         <field name="Reference">L</field>
         <field name="Value">L</field>
+        <field name="Datasheet">~</field>
       </fields>
       <pins>
         <pin num="1" name="1" type="passive"/>
@@ -892,13 +1055,14 @@
       <fields>
         <field name="Reference">R</field>
         <field name="Value">R</field>
+        <field name="Datasheet">~</field>
       </fields>
       <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Device" part="R_POT">
+    <libpart lib="Device" part="R_Potentiometer">
       <description>Potentiometer</description>
       <docs>~</docs>
       <footprints>
@@ -906,7 +1070,8 @@
       </footprints>
       <fields>
         <field name="Reference">RV</field>
-        <field name="Value">R_POT</field>
+        <field name="Value">R_Potentiometer</field>
+        <field name="Datasheet">~</field>
       </fields>
       <pins>
         <pin num="1" name="1" type="passive"/>
@@ -925,6 +1090,7 @@
       <fields>
         <field name="Reference">JP</field>
         <field name="Value">Jumper_3_Open</field>
+        <field name="Datasheet">~</field>
       </fields>
       <pins>
         <pin num="1" name="A" type="passive"/>
@@ -932,52 +1098,17 @@
         <pin num="3" name="B" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Jumper" part="SolderJumper_2_Open">
-      <description>Solder Jumper, 2-pole, open</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>SolderJumper*Open*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">JP</field>
-        <field name="Value">SolderJumper_2_Open</field>
-      </fields>
-      <pins>
-        <pin num="1" name="A" type="passive"/>
-        <pin num="2" name="B" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Regulator_Linear" part="MC78L05_SOT89">
-      <aliases>
-        <alias>MC78L08_SOT89</alias>
-        <alias>MC78L12_SOT89</alias>
-        <alias>L78L33_SOT89</alias>
-        <alias>L78L05_SOT89</alias>
-        <alias>L78L06_SOT89</alias>
-        <alias>L78L08_SOT89</alias>
-        <alias>L78L09_SOT89</alias>
-        <alias>L78L10_SOT89</alias>
-        <alias>L78L12_SOT89</alias>
-        <alias>L78L15_SOT89</alias>
-        <alias>L78L18_SOT89</alias>
-        <alias>L78L24_SOT89</alias>
-        <alias>MCP1804x-1802xMB</alias>
-        <alias>MCP1804x-2502xMB</alias>
-        <alias>MCP1804x-3002xMB</alias>
-        <alias>MCP1804x-3302xMB</alias>
-        <alias>MCP1804x-5002xMB</alias>
-        <alias>MCP1804x-A002xMB</alias>
-        <alias>MCP1804x-C002xMB</alias>
-      </aliases>
+    <libpart lib="Regulator_Linear" part="L78L05_SOT89">
       <description>Positive 100mA 30V Linear Regulator, Fixed Output 5V, SOT-89</description>
-      <docs>https://www.onsemi.com/pub/Collateral/MC78L00A-D.PDF</docs>
+      <docs>http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf</docs>
       <footprints>
         <fp>SOT?89*</fp>
       </footprints>
       <fields>
         <field name="Reference">U</field>
-        <field name="Value">MC78L05_SOT89</field>
+        <field name="Value">L78L05_SOT89</field>
         <field name="Footprint">Package_TO_SOT_SMD:SOT-89-3</field>
+        <field name="Datasheet">http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf</field>
       </fields>
       <pins>
         <pin num="1" name="OUT" type="power_out"/>
@@ -985,201 +1116,187 @@
         <pin num="3" name="IN" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="Transistor_BJT" part="BC547">
-      <aliases>
-        <alias>BC546</alias>
-        <alias>BC548</alias>
-        <alias>BC549</alias>
-        <alias>BC550</alias>
-        <alias>BC337</alias>
-        <alias>BC338</alias>
-      </aliases>
-      <description>0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92</description>
-      <docs>https://www.onsemi.com/pub/Collateral/BC550-D.pdf</docs>
+    <libpart lib="Transistor_BJT" part="BC847">
+      <description>0.1A Ic, 45V Vce, NPN Transistor, SOT-23</description>
+      <docs>http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657</docs>
       <footprints>
-        <fp>TO?92*</fp>
+        <fp>SOT?23*</fp>
       </footprints>
       <fields>
         <field name="Reference">Q</field>
-        <field name="Value">BC547</field>
-        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+        <field name="Value">BC847</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657</field>
       </fields>
       <pins>
-        <pin num="1" name="C" type="passive"/>
-        <pin num="2" name="B" type="input"/>
-        <pin num="3" name="E" type="passive"/>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
       </pins>
     </libpart>
   </libparts>
   <libraries>
-    <library logical="BCD">
-      <uri>D:\KiCad\Projets\C64-Composite-Modulator\kicad/BCD.lib</uri>
+    <library logical="BeaupreCircuitDesign">
+      <uri>D:\KiCad\Projets\C64-Composite-Modulator\kicad/BeaupreCircuitDesign.kicad_sym</uri>
     </library>
     <library logical="C64_Composite_Modulator">
-      <uri>D:\KiCad\Projets\C64-Composite-Modulator\kicad/C64-Composite-Modulator.lib</uri>
+      <uri>D:\KiCad\Projets\C64-Composite-Modulator\kicad/C64-Composite-Modulator.kicad_sym</uri>
     </library>
     <library logical="Connector">
-      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="CreativeCommons">
+      <uri>D:\KiCad\Projets\C64-Composite-Modulator\kicad/CreativeCommons.kicad_sym</uri>
     </library>
     <library logical="Device">
-      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
     </library>
     <library logical="Jumper">
-      <uri>C:\Program Files\KiCad\share\kicad\library/Jumper.lib</uri>
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Jumper.kicad_sym</uri>
     </library>
     <library logical="Regulator_Linear">
-      <uri>C:\Program Files\KiCad\share\kicad\library/Regulator_Linear.lib</uri>
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Regulator_Linear.kicad_sym</uri>
     </library>
     <library logical="Transistor_BJT">
-      <uri>C:\Program Files\KiCad\share\kicad\library/Transistor_BJT.lib</uri>
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Transistor_BJT.kicad_sym</uri>
     </library>
   </libraries>
   <nets>
-    <net code="1" name="Net-(B2-Pad1)">
-      <node ref="B2" pin="1"/>
-      <node ref="R10" pin="1"/>
-      <node ref="RV2" pin="2"/>
+    <net code="1" name="+5V">
+      <node ref="JP2" pin="2" pinfunction="C" pintype="input"/>
+      <node ref="Q1" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="TV1" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="2" name="Net-(JP1-Pad3)">
-      <node ref="R7" pin="2"/>
-      <node ref="JP1" pin="3"/>
+    <net code="2" name="AudioIn">
+      <node ref="A1" pin="1" pinfunction="In" pintype="passive"/>
+      <node ref="CLB1" pin="4" pinfunction="Audio_In" pintype="passive"/>
+      <node ref="CSB1" pin="8" pinfunction="Audio_In" pintype="passive"/>
     </net>
-    <net code="3" name="Net-(JP1-Pad1)">
-      <node ref="JP1" pin="1"/>
-      <node ref="R6" pin="2"/>
+    <net code="3" name="ChromaIn">
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="CLB1" pin="3" pinfunction="Chroma_In" pintype="passive"/>
+      <node ref="CSB1" pin="4" pinfunction="Chroma_In" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
     </net>
-    <net code="4" name="Net-(RV2-Pad1)">
-      <node ref="RV2" pin="1"/>
+    <net code="4" name="ChromaOut">
+      <node ref="CLB1" pin="7" pinfunction="Chroma_Out" pintype="passive"/>
+      <node ref="CSB1" pin="7" pinfunction="Chroma_Out" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="RV1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP3" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="5" name="GND">
-      <node ref="C3" pin="2"/>
-      <node ref="U1" pin="2"/>
-      <node ref="C4" pin="2"/>
-      <node ref="R9" pin="1"/>
-      <node ref="C1" pin="2"/>
-      <node ref="C2" pin="2"/>
-      <node ref="R5" pin="2"/>
-      <node ref="R3" pin="2"/>
-      <node ref="LB4" pin="1"/>
-      <node ref="C7" pin="2"/>
-      <node ref="JP2" pin="3"/>
-      <node ref="SB2" pin="1"/>
-      <node ref="SB1" pin="1"/>
-      <node ref="LB2" pin="1"/>
-      <node ref="LB3" pin="1"/>
-      <node ref="A1" pin="1"/>
-      <node ref="R1" pin="2"/>
-      <node ref="LB1" pin="1"/>
-      <node ref="V1" pin="2"/>
-      <node ref="J4" pin="4"/>
-      <node ref="J1" pin="3"/>
-      <node ref="R11" pin="2"/>
+    <net code="5" name="CompositeOut">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="CLB1" pin="5" pinfunction="Composite_Out" pintype="passive"/>
+      <node ref="CSB1" pin="5" pinfunction="Composite_Out" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="TP4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="V1" pin="1" pinfunction="In" pintype="passive"/>
     </net>
-    <net code="6" name="LumaIn">
-      <node ref="D1" pin="1"/>
-      <node ref="J3" pin="2"/>
-      <node ref="JP1" pin="2"/>
-      <node ref="J1" pin="2"/>
+    <net code="6" name="GND">
+      <node ref="A1" pin="2" pinfunction="Ext" pintype="passive"/>
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="CLB1" pin="9" pinfunction="Gnd" pintype="passive"/>
+      <node ref="CO1" pin="2" pintype="passive"/>
+      <node ref="CSB1" pin="3" pinfunction="Gnd" pintype="passive"/>
+      <node ref="CSB1" pin="9" pinfunction="Gnd" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="V1" pin="2" pinfunction="Ext" pintype="passive"/>
     </net>
-    <net code="7" name="LumaOut">
-      <node ref="TP6" pin="1"/>
-      <node ref="R11" pin="1"/>
-      <node ref="B2" pin="2"/>
-      <node ref="J4" pin="2"/>
-      <node ref="J2" pin="2"/>
-      <node ref="RV2" pin="3"/>
+    <net code="7" name="LumaIn">
+      <node ref="CLB1" pin="2" pinfunction="Sync/Luma_In" pintype="passive"/>
+      <node ref="CSB1" pin="2" pinfunction="Sync/Luma_In" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
     </net>
-    <net code="8" name="Net-(L1-Pad2)">
-      <node ref="R8" pin="2"/>
-      <node ref="L1" pin="2"/>
-      <node ref="TP5" pin="1"/>
+    <net code="8" name="LumaOut">
+      <node ref="CLB1" pin="6" pinfunction="Sync/Luma_Out" pintype="passive"/>
+      <node ref="CSB1" pin="6" pinfunction="Sync/Luma_Out" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="RV2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP6" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="9" name="+5V">
-      <node ref="R2" pin="1"/>
-      <node ref="Q1" pin="1"/>
-      <node ref="R7" pin="1"/>
-      <node ref="Q2" pin="1"/>
-      <node ref="R6" pin="1"/>
-      <node ref="JP3" pin="2"/>
+    <net code="9" name="Net-(C3-Pad1)">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="JP2" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="OUT" pintype="power_out"/>
     </net>
-    <net code="10" name="Net-(D1-Pad2)">
-      <node ref="TP4" pin="1"/>
-      <node ref="D1" pin="2"/>
-      <node ref="Q2" pin="2"/>
+    <net code="10" name="Net-(C5-Pad1)">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="CO1" pin="1" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="11" name="AudioIn">
-      <node ref="J3" pin="4"/>
-      <node ref="J2" pin="4"/>
-      <node ref="JP2" pin="1"/>
-      <node ref="A1" pin="2"/>
+    <net code="11" name="Net-(C6-Pad2)">
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="12" name="ChromaIn">
-      <node ref="J1" pin="4"/>
-      <node ref="J3" pin="3"/>
-      <node ref="C5" pin="1"/>
-      <node ref="R1" pin="1"/>
+    <net code="12" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="JP1" pin="2" pinfunction="C" pintype="input"/>
+      <node ref="Q2" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="TP8" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="13" name="ChromaOut">
-      <node ref="RV1" pin="3"/>
-      <node ref="TP1" pin="1"/>
-      <node ref="R5" pin="1"/>
-      <node ref="B1" pin="2"/>
-      <node ref="J4" pin="3"/>
-      <node ref="J2" pin="3"/>
+    <net code="13" name="Net-(JP1-Pad1)">
+      <node ref="JP1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
     </net>
-    <net code="14" name="Net-(A1-Pad3)">
-      <node ref="JP2" pin="2"/>
-      <node ref="A1" pin="3"/>
+    <net code="14" name="Net-(JP1-Pad3)">
+      <node ref="JP1" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
     </net>
-    <net code="15" name="VCC">
-      <node ref="J1" pin="1"/>
-      <node ref="C1" pin="1"/>
-      <node ref="JP3" pin="3"/>
-      <node ref="J3" pin="1"/>
-      <node ref="U1" pin="3"/>
-      <node ref="C2" pin="1"/>
+    <net code="15" name="Net-(L1-Pad1)">
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="TP5" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="16" name="Net-(L1-Pad1)">
-      <node ref="R10" pin="2"/>
-      <node ref="L1" pin="1"/>
-      <node ref="Q2" pin="3"/>
-      <node ref="TP7" pin="1"/>
+    <net code="16" name="Net-(L1-Pad2)">
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="TP7" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="17" name="CompositeOut">
-      <node ref="J2" pin="1"/>
-      <node ref="C6" pin="2"/>
-      <node ref="J4" pin="1"/>
-      <node ref="TP3" pin="1"/>
-      <node ref="V1" pin="1"/>
-      <node ref="R9" pin="2"/>
-      <node ref="R8" pin="1"/>
+    <net code="17" name="Net-(R10-Pad1)">
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="RV2" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="18" name="Net-(RV1-Pad1)">
-      <node ref="RV1" pin="1"/>
+    <net code="18" name="Net-(RV1-Pad2)">
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="RV1" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="19" name="Net-(C5-Pad2)">
-      <node ref="Q1" pin="2"/>
-      <node ref="C5" pin="2"/>
-      <node ref="C7" pin="1"/>
-      <node ref="R2" pin="2"/>
-      <node ref="R3" pin="1"/>
+    <net code="19" name="VCC">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="CLB1" pin="1" pinfunction="+9V" pintype="passive"/>
+      <node ref="CSB1" pin="1" pinfunction="+5V" pintype="passive"/>
+      <node ref="JP2" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="IN" pintype="power_in"/>
     </net>
-    <net code="20" name="Net-(C3-Pad1)">
-      <node ref="C4" pin="1"/>
-      <node ref="U1" pin="1"/>
-      <node ref="C3" pin="1"/>
-      <node ref="JP3" pin="1"/>
+    <net code="20" name="unconnected-(CLB1-Pad8)">
+      <node ref="CLB1" pin="8" pinfunction="Inter_Carrier" pintype="passive+no_connect"/>
     </net>
-    <net code="21" name="Net-(C6-Pad1)">
-      <node ref="Q1" pin="3"/>
-      <node ref="C6" pin="1"/>
-      <node ref="TP2" pin="1"/>
-      <node ref="R4" pin="2"/>
+    <net code="21" name="unconnected-(RV1-Pad3)">
+      <node ref="RV1" pin="3" pinfunction="3" pintype="passive+no_connect"/>
     </net>
-    <net code="22" name="Net-(B1-Pad1)">
-      <node ref="RV1" pin="2"/>
-      <node ref="B1" pin="1"/>
-      <node ref="R4" pin="1"/>
+    <net code="22" name="unconnected-(RV2-Pad3)">
+      <node ref="RV2" pin="3" pinfunction="3" pintype="passive+no_connect"/>
     </net>
   </nets>
 </export>
