@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>D:\KiCad\Projets\C64-Composite-Modulator\kicad\C64-Composite-Modulator.kicad_sch</source>
-    <date>30/01/2022 12:43:00</date>
+    <date>31/01/2022 08:43:10</date>
     <tool>Eeschema (6.0.1)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -69,19 +69,19 @@
     <comp ref="C2">
       <value>33nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/1810241123_Samsung-Electro-Mechanics-CL21B333KBANNNC_C159777.pdf</datasheet>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811061723_FH-Guangdong-Fenghua-Advanced-Tech-0805B333K500NT_C1739.pdf</datasheet>
       <fields>
         <field name="Description">50V 33nF X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS</field>
         <field name="Digikey">1276-1796-1-ND</field>
-        <field name="LCSC">C159777</field>
-        <field name="Manufacturer">Samsung Electro-Mechanics</field>
-        <field name="Mfr.Part">CL21B333KBANNNC</field>
+        <field name="LCSC">C1739</field>
+        <field name="Manufacturer">FH(Guangdong Fenghua Advanced Tech)</field>
+        <field name="Mfr.Part">0805B333K500NT</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Description" value="50V 33nF X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"/>
-      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
-      <property name="Mfr.Part" value="CL21B333KBANNNC"/>
-      <property name="LCSC" value="C159777"/>
+      <property name="Manufacturer" value="FH(Guangdong Fenghua Advanced Tech)"/>
+      <property name="Mfr.Part" value="0805B333K500NT"/>
+      <property name="LCSC" value="C1739"/>
       <property name="Digikey" value="1276-1796-1-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="C64-Composite-Modulator.kicad_sch"/>
@@ -387,19 +387,19 @@
     <comp ref="L1">
       <value>10uH</value>
       <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/2110081230_Sunlord-MCL2012H100MT_C95978.pdf</datasheet>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2110081230_Sunlord-SDFL2012S100KTF_C1046.pdf</datasheet>
       <fields>
-        <field name="Description">100mA 10uH ±20% 650mΩ 0805 Inductors (SMD) ROHS</field>
+        <field name="Description">15mA 10uH ±10% 1.15Ω 0805 Inductors (SMD) ROHS</field>
         <field name="Digikey">587-2452-1-ND</field>
-        <field name="LCSC">C95978</field>
+        <field name="LCSC">C1046</field>
         <field name="Manufacturer">Sunlord</field>
-        <field name="Mfr.Part">MCL2012H100MT</field>
+        <field name="Mfr.Part">SDFL2012S100KTF</field>
       </fields>
       <libsource lib="Device" part="L" description="Inductor"/>
-      <property name="Description" value="100mA 10uH ±20% 650mΩ 0805 Inductors (SMD) ROHS"/>
+      <property name="Description" value="15mA 10uH ±10% 1.15Ω 0805 Inductors (SMD) ROHS"/>
       <property name="Manufacturer" value="Sunlord"/>
-      <property name="Mfr.Part" value="MCL2012H100MT"/>
-      <property name="LCSC" value="C95978"/>
+      <property name="Mfr.Part" value="SDFL2012S100KTF"/>
+      <property name="LCSC" value="C1046"/>
       <property name="Digikey" value="587-2452-1-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="C64-Composite-Modulator.kicad_sch"/>
@@ -1273,13 +1273,13 @@
       <node ref="R10" pin="2" pintype="passive"/>
       <node ref="TP7" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="17" name="Net-(R10-Pad1)">
-      <node ref="R10" pin="1" pintype="passive"/>
-      <node ref="RV2" pin="2" pinfunction="2" pintype="passive"/>
-    </net>
-    <net code="18" name="Net-(RV1-Pad2)">
+    <net code="17" name="Net-(R4-Pad1)">
       <node ref="R4" pin="1" pintype="passive"/>
       <node ref="RV1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(R10-Pad1)">
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="RV2" pin="2" pinfunction="2" pintype="passive"/>
     </net>
     <net code="19" name="VCC">
       <node ref="C1" pin="1" pintype="passive"/>

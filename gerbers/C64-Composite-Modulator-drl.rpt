@@ -1,0 +1,24 @@
+Drill report for C64-Composite-Modulator.kicad_pcb
+Created on 31/01/2022 14:39:49
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'C64-Composite-Modulator-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.800mm  0.0315"  (8 holes)
+    T2  1.000mm  0.0394"  (41 holes)
+    T3  2.000mm  0.0787"  (8 holes)  (with 6 slots)
+
+    Total plated holes count 57
+
+
+Drill file 'C64-Composite-Modulator-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+
+    Total unplated holes count 0
