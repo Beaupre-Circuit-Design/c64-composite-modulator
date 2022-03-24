@@ -1,16 +1,25 @@
 # c64-rf-modulator-replacement
 C64 Composite/S-Video RF Modulator Replacement
 
-<img src="./images/C64-Composite-Modulator-Top.png" width=400px>
+
+<img src="./images/C64-Composite-Modulator-Top.png" height=320px>
+<img src="./images/C64-Composite-Modulator-Bottom.png" height=320px>
+
+<img src="./images/C64-Composite-Modulator-Top.jpg" height=320px>
+<img src="./images/C64-Composite-Modulator-Bottom.jpg" height=320px>
+
+<img src="./images/C64-250407.jpg" height=320px>
+
+<img src="./images/C64-250407.jpg" height=320px>
 
 ## Quick Links
 * [Schematic](pdf/C64-Composite-Modulator.pdf)
 
-* [Gerber Files](gerbers)
+* [Gerber Files](./gerbers)
 
-* [PCB Renderings](images)
+* [PCB Renderings](./images)
 
-* [Photos](images)
+* [Photos](./images)
 
 # Introduction 
 This is a remix of mbarszcz-pcb's version of a C64 RF Modulator replacement based on the schematics of similar designs like [Zero-X/OMS's Modified Commodore RF Modulator Design](images/zerox-oms-modulator_simple-schematic.png) and [JMP$FCE2's S-Video only design](images/jmp$fce2-schematic.png). This board can be used to replace a damaged or defective RF modulator in your C64, to improve the sharpness of your video output, or as a modern solution to replace the composite/luma/chroma output functionality of the original modulator on new motherboards such as the SixtyClone or Bwack’s KU-14194.
@@ -83,9 +92,10 @@ If you are still getting checkerboarding even after adjusting the potentiometers
 # Changelog
 * Rev 20210528-2008
   * Prototype
-* Rev 20210531-2143
+* Rev 20210531-2143 (Not working)
   * Move B1/B2 silkscreen reference to the right location.
-  * Rotate JP1/JP2 so all the headers are aligned to the same side.
+  * Rotate JP1/JP2 so all the headers are aligned to the same side (Forgot to update the silkscreen)
+  * Switch to a BC847 transistor but forgot to update the footprint.
 * Rev 20220130-1040
   * Corrected aligment of the support headers.
   * Corrected wrong pinout on Q1/Q2.
@@ -94,3 +104,4 @@ If you are still getting checkerboarding even after adjusting the potentiometers
   * Remove B1/B2, use the trimmer pot pads instead if replacing them with a fixed resistor value.
   * Change the footprint of the LCD FIX capacitor for a throught-hole.
   * PCB Layout rework.
+  * Fully assembled and tested on both C64 and C64C motherboards.
